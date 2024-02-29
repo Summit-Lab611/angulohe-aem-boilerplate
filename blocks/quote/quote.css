@@ -1,0 +1,25 @@
+.quote {
+    margin: 0 auto;
+    padding: 0 32px;
+    max-width: 700px;
+}
+
+.quote .quote-quoation {
+    font-style: italic;
+}
+
+.quote .quote-quoation::before {
+    content: "''";
+}
+
+.quote .quote-quoation::after {
+    content: "''";
+}
+
+.quote .quote-attribution {
+    text-align: right;
+}
+
+.quote .quote-attribution::before {
+    content: "-";
+}
